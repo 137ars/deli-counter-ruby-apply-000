@@ -3,7 +3,7 @@
 katz_deli = []  #empty array
 
 def line(customers) #method pass through an array
-  if customers.empty? #boolean / conditional
+  if customers.empty? #boolean / conditional w empty? function
     puts "The line is currently empty."
   else
     customer_line = [] #*
