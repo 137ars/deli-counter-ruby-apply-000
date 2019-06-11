@@ -19,6 +19,13 @@ def take_a_number(deline, name)
   puts "Welcome, #{name}. You are number #{deline.length} in line."  #.length IM puts the number (1 not 0)
 end
 
+def take_a_number(line)
+  counter = 0
+  counter = counter + 1
+  line.push(counter)
+  puts "Welcome you are number #{counter}."
+end
+
 def now_serving(katz_deli)
   unless katz_deli.empty? #different conditional from first method
     puts "Currently serving #{katz_deli[0]}." #start at first index 0
