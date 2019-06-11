@@ -19,11 +19,11 @@ def take_a_number(deline, name)
   puts "Welcome, #{name}. You are number #{deline.length} in line."  #.length IM puts the number (1 not 0)
 end
 
+$counter = 0
 def take_a_number(line)
-  counter = 0
-  counter = counter + 1
-  line.push(counter)
-  puts "Welcome you are number #{counter}."
+  $counter = $counter + 1
+  line.push($counter)
+  puts "Welcome you are number #{$counter}."
 end
 
 def now_serving(katz_deli)
